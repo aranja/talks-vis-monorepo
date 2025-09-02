@@ -1,0 +1,8 @@
+{
+  "name": "@vis-monorepo/spa",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "codegen": "npx openapi-typescript https://fakerestapi.azurewebsites.net/swagger/v1/swagger.yml -o ./src/generated/schema.d.ts"
+  }
+}
